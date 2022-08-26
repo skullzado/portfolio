@@ -1,0 +1,48 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 var(--black-op20);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.todo-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__selected {
+  margin-right: 0.5rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.todo__title {
+  font-size: 1rem;
+}
+
+.todo__completed {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--black);
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.todo__completed:hover {
+  background-color: var(--black-op80);
+}
+
+.todo.todo--completed .todo__title {
+  color: var(--white-op20);
+}
+
+.todo.todo--completed .todo__completed {
+  background-color: var(--white-op20);
+}
+
+.todo.todo--completed {
+  background-color: midnightblue;
+}

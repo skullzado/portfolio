@@ -1,0 +1,31 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+.input__todo {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--black-op20);
+}
+.input__todo:focus {
+  border: 2px solid var(--black);
+}
+.input__add-btn {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.625rem 1.125rem;
+  position: absolute;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  right: 0;
+  transition: background-color 0.3s ease;
+}
+.input__add-btn:hover {
+  background-color: var(--black-op80);
+}
