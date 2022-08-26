@@ -4,7 +4,7 @@ import { poorId } from '../../utils/utils';
 import './About.css';
 
 export const About = () => {
-  document.title = 'skullzado - Contact';
+  document.title = 'skullzado - About';
   const [selected, setSelected] = useState(null);
 
   const toggle = (index) => {

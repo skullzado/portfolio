@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Home.css';
+
 export const Home = () => {
   document.title = 'skullzado';
 
@@ -12,7 +13,8 @@ export const Home = () => {
       <section className="cta">
         <Link
           to="./PaulCalzadoCV.pdf"
-          download="PaulCalzadoCV"
+          target="_blank"
+          download="PaulCalzadoCV.pdf"
           className="btn btn__cta"
         >
           Download CV
