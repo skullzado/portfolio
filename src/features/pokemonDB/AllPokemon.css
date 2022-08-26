@@ -1,0 +1,14 @@
+.pokemondb-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-gap: 1.25rem;
+  align-content: center;
+  justify-items: center;
+}
+
+@media (min-width: 48.0625em) {
+  .pokemondb-list {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+}

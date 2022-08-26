@@ -1,0 +1,59 @@
+.pokemondb-card {
+  width: 100%;
+  border: 1px solid var(--black-op20);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px 0 var(--black-op20);
+  display: grid;
+  gap: 1.25rem;
+  grid-template-rows: 2rem 9.25rem 3.375rem;
+  align-items: center;
+  background-color: white;
+  padding: 1.25rem;
+}
+
+.pokemondb-card__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pokemondb-card__id {
+  font-size: 1rem;
+}
+
+.pokemondb-card__contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemondb-card__footer {
+  width: 100%;
+  align-self: flex-start;
+}
+
+.pokemondb-card__footer--multiple {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.pokemondb-card__types {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--white);
+  padding: 2px;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 64.0625em) {
+  .pokemondb-card {
+    grid-template-rows: 2rem 9.25rem 1.475rem;
+  }
+  .pokemondb-card__footer--multiple {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
