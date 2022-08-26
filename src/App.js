@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import { Home } from './components/pages/Home';
+import { ProjectsList } from './components/pages/ProjectsList';
+import { About } from './components/pages/About';
+import { TodolistContainer } from './components/pages/todolist/TodolistContainer';
+import { PokemonDBContainer } from './features/pokemonDB/PokemonDBContainer';
+import { PokemonList } from './features/pokemonDB/PokemonList';
+import { AllPokemon } from './features/pokemonDB/AllPokemon';
+import { Layout } from './components/Layout';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects-list" element={<ProjectsList />} />
+        <Route path="/projects">
+          <Route path="todolist" element={<TodolistContainer />} />
+          <Route path="pokemondb" element={<PokemonDBContainer />}>
+            <Route index element={<AllPokemon />} />
+            <Route path=":gen" element={<PokemonList />} />
+          </Route>
+        </Route>
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Route>
+    </Routes>
   );
-}
-
-export default App;
+};
