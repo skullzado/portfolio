@@ -12,8 +12,8 @@ This is my portfolio website made with **React** (create-react-app).
 
 ## Projects included:
 
-- Todolist (https://skullzado.io/projects/todolist)
-- PokemonDB (https://skullzado.io/projects/pokemondb)
+- Todolist (https://skullzado.github.io/projects/todolist)
+- PokemonDB (https://skullzado.github.io/projects/pokemondb)
 
 **NOTE:**
 I used Redux Toolkit for PokemonDB because it's less boilerplate than Redux and easier to follow for a newb like me. I admit, together with Axios, the libraries used here is overkill for a very simple project like this.

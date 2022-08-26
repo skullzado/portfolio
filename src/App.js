@@ -11,18 +11,18 @@ import { Layout } from './components/Layout';
 export const App = () => {
   return (
     <Routes>
-      <Route path="/portfolio" element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/portfolio/about" element={<About />} />
-        <Route path="/portfolio/projects-list" element={<ProjectsList />} />
-        <Route path="/portfolio/projects">
+        <Route path="/about" element={<About />} />
+        <Route path="/projects-list" element={<ProjectsList />} />
+        <Route path="/projects">
           <Route path="todolist" element={<TodolistContainer />} />
           <Route path="pokemondb" element={<PokemonDBContainer />}>
             <Route index element={<AllPokemon />} />
             <Route path=":gen" element={<PokemonList />} />
           </Route>
         </Route>
-        <Route path="*" element={<Navigate to="/portfolio" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
   );

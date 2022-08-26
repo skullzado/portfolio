@@ -2,8 +2,8 @@
   "name": "portfolio",
   "version": "0.1.0",
   "author": "Paul Calzado",
-  "private": true,
   "homepage": "https://skullzado.github.io/portfolio",
+  "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.5",

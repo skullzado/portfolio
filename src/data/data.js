@@ -1,9 +1,9 @@
 export const mainRoutes = [
-  { name: 'Home', route: '/' },
-  { name: 'About', route: '/about' },
+  { name: 'Home', route: '/portfolio' },
+  { name: 'About', route: '/portfolio/about' },
   {
     name: 'Projects',
-    route: '/projects-list',
+    route: '/portfolio/projects-list',
   },
 ];
 
