@@ -71,6 +71,7 @@
   justify-content: center;
   align-items: center;
   margin-inline: 0.5rem;
+  color: var(--black);
 }
 
 .about__link-name {

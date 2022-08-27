@@ -34,14 +34,14 @@ export const About = () => {
                 {selected === index ? (
                   <img
                     className="about__faq--selected"
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3UlEQVRIS+2TywnCQBRFE7AHBRW/TYgo1mED4tZG3LlwbyEiYhMRFT9oDy48FyYQNJlMFgEXM3BIMnlz73s3JAxKXmHJ+oE3yE3YR/T/ES1ocQOvjFar7E9hmTWK7SPPObSCI4zh8SVS53kLPZjBOs3EZlDjwA76cIEh3I2IxPfQgghG8CxqoHqZHKCdMNF+LH7mfpAlrkKX/6BhouhyPUEFmqDoJnBL6zzeczFQrUwUlybRUueKxSruOkHcjEwU19tVvKiB6jvG4GqLJfnONSJXvZ86b5AbnY8oN6IPTiYfGTwiuUYAAAAASUVORK5CYII="
-                    alt="Chevron Down"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAx0lEQVRIS2NkoDFgpLH5DKMWEAzhkRdE8tAweUgwbKAKSAkiGaCew1B9tkD6CTGWEGsBzHAFqKEPgDRRlhBjAcjwQ0CsCMQgg0EAZNE9ILYn5BNCFiC7HBTu1lALjgJpUHyALLQE4he4ggufBdgMfwo1SBpIwyy5Aw0urJbgsyATqHEaEIMMcABimOEwx4IsOQjEykCcAcQzsfmCUBAVAzUtA+LnOIIAZEkoEE8gJ4hw6SFJnJAPSDKMnCAatWC0RiOcBmieTAF4cR0Zi+GIGAAAAABJRU5ErkJggg=="
+                    alt="Chevron Up"
                   />
                 ) : (
                   <img
                     className="about__faq--selected"
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAx0lEQVRIS2NkoDFgpLH5DKMWEAzhkRdE8tAweUgwbKAKSAkiGaCew1B9tkD6CTGWEGsBzHAFqKEPgDRRlhBjAcjwQ0CsCMQgg0EAZNE9ILYn5BNCFiC7HBTu1lALjgJpUHyALLQE4he4ggufBdgMfwo1SBpIwyy5Aw0urJbgsyATqHEaEIMMcABimOEwx4IsOQjEykCcAcQzsfmCUBAVAzUtA+LnOIIAZEkoEE8gJ4hw6SFJnJAPSDKMnCAatWC0RiOcBmieTAF4cR0Zi+GIGAAAAABJRU5ErkJggg=="
-                    alt="Chevron Up"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3UlEQVRIS+2TywnCQBRFE7AHBRW/TYgo1mED4tZG3LlwbyEiYhMRFT9oDy48FyYQNJlMFgEXM3BIMnlz73s3JAxKXmHJ+oE3yE3YR/T/ES1ocQOvjFar7E9hmTWK7SPPObSCI4zh8SVS53kLPZjBOs3EZlDjwA76cIEh3I2IxPfQgghG8CxqoHqZHKCdMNF+LH7mfpAlrkKX/6BhouhyPUEFmqDoJnBL6zzeczFQrUwUlybRUueKxSruOkHcjEwU19tVvKiB6jvG4GqLJfnONSJXvZ86b5AbnY8oN6IPTiYfGTwiuUYAAAAASUVORK5CYII="
+                    alt="Chevron Down"
                   />
                 )}
               </div>

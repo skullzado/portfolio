@@ -23,7 +23,7 @@
 .btn__cta {
   background-color: var(--red);
   color: var(--white);
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   transition: background-color 0.3s ease;

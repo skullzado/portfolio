@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './Home.css';
 
 export const Home = () => {
@@ -11,9 +10,14 @@ export const Home = () => {
         <p className="hero__copy">Frontend Web Developer</p>
       </section>
       <section className="cta">
-        <Link to="/PaulCalzadoCV.pdf" download className="btn btn__cta">
+        <a
+          href="PaulCalzadoCV.pdf"
+          download
+          target="_blank"
+          className="btn btn__cta"
+        >
           Download CV
-        </Link>
+        </a>
       </section>
     </div>
   );

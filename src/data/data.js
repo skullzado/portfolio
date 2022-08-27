@@ -1,9 +1,9 @@
 export const mainRoutes = [
-  { name: 'Home', route: '/portfolio' },
-  { name: 'About', route: '/portfolio/about' },
+  { name: 'Home', route: '/' },
+  { name: 'About', route: '/about' },
   {
     name: 'Projects',
-    route: '/portfolio/projects-list',
+    route: '/projects-list',
   },
 ];
 
@@ -21,6 +21,8 @@ export const projectsData = [
       library: ['React'],
     },
     route: '/projects/todolist',
+    linkRoute:
+      'https://github.com/skullzado/portfolio/tree/main/src/features/pokemonDB',
   },
   {
     name: 'PokemonDB',
@@ -35,6 +37,8 @@ export const projectsData = [
       ],
     },
     route: '/projects/pokemondb',
+    linkRoute:
+      'https://github.com/skullzado/portfolio/tree/main/src/components/pages/todolist',
   },
 ];
 

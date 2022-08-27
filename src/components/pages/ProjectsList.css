@@ -52,9 +52,10 @@
 }
 
 .projects__link {
+  color: var(--black);
   text-decoration: underline;
   cursor: pointer;
-  transition: text-shadow 0.2s ease;
+  transition: text-shadow 0.3s ease;
 }
 
 .projects__link:hover {

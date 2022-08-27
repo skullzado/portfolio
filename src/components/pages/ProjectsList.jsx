@@ -15,7 +15,7 @@ export const ProjectsList = () => {
       </p>
       <div className="projects__container">
         {projectsData.map(
-          ({ name, description: { concept, library }, route }) => (
+          ({ name, description: { concept, library }, route, linkRoute }) => (
             <div key={name} className="projects__card">
               <div className="projects__card-header">
                 <h3 className="projects__title">{name}</h3>
@@ -42,7 +42,7 @@ export const ProjectsList = () => {
                   view project
                 </NavLink>
                 <a
-                  href="https://github.com/skullzado"
+                  href={linkRoute}
                   className="projects__link"
                   target="_blank"
                   rel="noreferrer"

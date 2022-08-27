@@ -21,7 +21,7 @@
 .header__list-link {
   color: var(--black-op50);
   text-transform: lowercase;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
   font-size: 1.25rem;
 }
 
