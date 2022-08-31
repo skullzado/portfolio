@@ -7,15 +7,10 @@ export const Home = () => {
     <div className="home">
       <section className="hero">
         <h2 className="hero__heading">Paul Calzado</h2>
-        <p className="hero__copy">Frontend Web Developer</p>
+        <p className="hero__copy">Web Developer</p>
       </section>
       <section className="cta">
-        <a
-          href="PaulCalzadoCV.pdf"
-          download
-          target="_blank"
-          className="btn btn__cta"
-        >
+        <a href="PCCV.pdf" download target="_blank" className="btn btn__cta">
           Download CV
         </a>
       </section>

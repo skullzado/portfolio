@@ -21,8 +21,9 @@ export const projectsData = [
       library: ['React'],
     },
     route: '/projects/todolist',
+    isPractice: true,
     linkRoute:
-      'https://github.com/skullzado/portfolio/tree/main/src/features/pokemonDB',
+      'https://github.com/skullzado/portfolio/tree/main/src/components/pages/todolist',
   },
   {
     name: 'PokemonDB',
@@ -37,8 +38,9 @@ export const projectsData = [
       ],
     },
     route: '/projects/pokemondb',
+    isPractice: true,
     linkRoute:
-      'https://github.com/skullzado/portfolio/tree/main/src/components/pages/todolist',
+      'https://github.com/skullzado/portfolio/tree/main/src/features/pokemonDB',
   },
 ];
 
@@ -121,23 +123,15 @@ export const contactEls = [
 
 export const accordionData = [
   {
-    heading: "Libraries/Frameworks I'm familiar with:",
-    content: [
-      'React',
-      'React Redux',
-      'React Router',
-      'Redux Toolkit',
-      'Sass',
-      'Express',
-      'TypeScript',
-    ],
+    heading: "Libraries / Frameworks I'm familiar with:",
+    content: ['React', 'Redux Toolkit', 'Sass', 'Express', 'Mongoose', 'JWT'],
   },
   {
-    heading: 'Library/Framework I want to learn:',
-    content: ['TypeScript with React', 'SvelteKit', 'Jest'],
+    heading: 'Library / Framework I want to learn:',
+    content: ['TypeScript with React', 'NextJS', 'VueJS', 'Jest'],
   },
   {
     heading: 'Project I will be working on:',
-    content: ['Simple blog app using MERN stack (practice project)'],
+    content: ['Budget/Shopping app using NextJS/Firebase'],
   },
 ];

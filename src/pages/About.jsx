@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { accordionData, contactEls } from '../../data/data';
-import { poorId } from '../../utils/utils';
+import { accordionData, contactEls } from '../data/data';
+import { poorId } from '../utils/utils';
 import './About.css';
 
 export const About = () => {
@@ -19,8 +19,8 @@ export const About = () => {
     <div className="about">
       <div className="about-main">
         <div className="about__me">
-          <h2 className="about__name">Paul Calzado</h2>
-          <p className="about__description">Frontend Web Developer</p>
+          <h2 className="about__name">Hello! I'm Paul Calzado</h2>
+          <p className="about__description">a Web Developer</p>
         </div>
         <div className="about__faq-container">
           {accordionData.map(({ heading, content }, index) => (

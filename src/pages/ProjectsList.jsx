@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { projectsData } from '../../data/data';
+import { projectsData } from '../data/data';
 import './ProjectsList.css';
 
 export const ProjectsList = () => {
@@ -8,15 +8,23 @@ export const ProjectsList = () => {
   return (
     <div className="projects">
       <p className="projects__note">
-        <strong>NOTE: </strong>The term "project" in here is used very loosely.
-        The "projects" posted in here are practice projects and nowhere near
-        production type apps. It's only to practice HTML, CSS, and, JavaScript
-        and its numerous libraries/frameworks.
+        <span></span>Practice Projects
       </p>
       <div className="projects__container">
         {projectsData.map(
-          ({ name, description: { concept, library }, route, linkRoute }) => (
-            <div key={name} className="projects__card">
+          ({
+            name,
+            description: { concept, library },
+            route,
+            isPractice,
+            linkRoute,
+          }) => (
+            <div
+              key={name}
+              className={`projects__card ${
+                isPractice ? 'project--practice' : ''
+              }`}
+            >
               <div className="projects__card-header">
                 <h3 className="projects__title">{name}</h3>
               </div>

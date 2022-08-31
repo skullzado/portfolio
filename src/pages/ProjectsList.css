@@ -1,10 +1,20 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
 .projects__note {
-  font-size: 0.875rem;
   text-align: justify;
   text-justify: inter-word;
   width: 80%;
-  margin-inline: auto;
   margin-bottom: 1.25rem;
+  overflow: hidden;
+}
+
+.projects__note > span {
+  padding: 0.5rem;
+  background-color: var(--blue);
+  margin-right: 1.25rem;
 }
 
 .projects__container {
@@ -22,6 +32,17 @@
   border: 1px solid var(--black-op20);
   box-shadow: 0 2px 4px 2px var(--black-op20);
   border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.projects__card.project--practice::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 1.25rem;
+  height: 100%;
+  background-color: var(--blue);
 }
 
 .projects__title {

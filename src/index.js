@@ -5,7 +5,7 @@ import { App } from './App';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
 import './index.css';
-import { TodolistProvider } from './components/pages/todolist/context/todolistContext';
+import { TodolistProvider } from './components/todolist/context/todolistContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
