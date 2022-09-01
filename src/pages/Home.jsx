@@ -10,7 +10,12 @@ export const Home = () => {
         <p className="hero__copy">Web Developer</p>
       </section>
       <section className="cta">
-        <a href="PCCV.pdf" download target="_blank" className="btn btn__cta">
+        <a
+          href="PaulCalzadoCV-updated.pdf"
+          download
+          target="_blank"
+          className="btn btn__cta"
+        >
           Download CV
         </a>
       </section>
