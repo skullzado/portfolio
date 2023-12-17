@@ -1,5 +1,8 @@
 # My Portfolio
 
+**NOTE:**
+This portfolio website is being reworked from scratch.
+
 This is my portfolio website made with **React** (create-react-app).
 
 ## All libraries used:
